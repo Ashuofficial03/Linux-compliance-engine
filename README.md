@@ -35,7 +35,6 @@ This project bridges the gap between IT operations and security compliance. It a
 
 ---
 
-## 🚀 Quick Start Guide
 
 ### 1. Prerequisites
 Ensure you have a Linux environment with Python 3 and MongoDB installed.
