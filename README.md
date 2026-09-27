@@ -41,13 +41,13 @@ This project bridges the gap between IT operations and security compliance. It a
 Ensure you have a Linux environment with Python 3 and MongoDB installed.
 ```bash
 sudo dnf install mongodb-org python3-pip -y
-pip3 install pymongo
-
+pip3 install pymongon```
+---
 ### 2. Database Initialization
 Start the MongoDB service and import the baseline compliance controls.
 ```bash
 sudo systemctl start mongod
-mongoimport --db compliance_engine --collection controls --jsonArray --file controls.json```
+mongoimport --db compliance_engine --collection controls --jsonArray --file controls.jso
 
 ## 3. Run the master wrapper script to trigger the automated pipeline.
 
