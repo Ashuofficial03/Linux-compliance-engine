@@ -1,0 +1,17 @@
+[
+  {
+    "control_id": "CIS_5.2.4",
+    "name": "Ensure SSH Root Login is Disabled",
+    "description": "Disabling root logins over SSH requires admins to log in with their own accounts.",
+    "framework_mapping": {
+      "CIS": "5.2.4",
+      "ISO_27001": "A.9.2.1"
+    },
+    "technical_details": {
+      "file_path": "/etc/ssh/sshd_config",
+      "search_string": "^PermitRootLogin\\s+no",
+      "remediation": "Edit /etc/ssh/sshd_config and set PermitRootLogin to no."
+    },
+    "severity": "Critical"
+  }
+]
