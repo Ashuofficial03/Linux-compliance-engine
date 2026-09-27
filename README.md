@@ -47,7 +47,7 @@ pip3 install pymongo
 Start the MongoDB service and import the baseline compliance controls.
 ```bash
 sudo systemctl start mongod
-mongoimport --db compliance_engine --collection controls --jsonArray --file controls.json
+mongoimport --db compliance_engine --collection controls --jsonArray --file controls.json```
 
 ## 3. Run the master wrapper script to trigger the automated pipeline.
 
